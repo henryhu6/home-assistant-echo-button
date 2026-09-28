@@ -29,7 +29,8 @@ Status: hardware preview. Do not publish this as a reliable button automation in
 - [x] Create a public GitHub repository and choose a maintainer account.
 - [x] Add real `documentation`, `issue_tracker`, and `codeowners` values to `manifest.json`.
 - [x] Add an MIT license.
-- [ ] Add a repository description and topics; run the HACS repository validator.
+- [x] Add a repository description and topics.
+- [ ] Run the HACS repository validator on the public repository.
 - [ ] Tag and publish a release only after the release blockers are resolved.
 
 The [public repository](https://github.com/henryhu6/home-assistant-echo-button) now exists with the manifest URLs and code owner HACS requires. A clean install and the release blockers above remain before recommending this integration to others. See the [HACS integration requirements](https://www.hacs.xyz/docs/publish/integration/) and [Home Assistant custom integration localization guidance](https://developers.home-assistant.io/docs/internationalization/custom_integration/).
