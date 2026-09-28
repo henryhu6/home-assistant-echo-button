@@ -1,0 +1,2 @@
+pyobjc-framework-CoreBluetooth==12.2.2
+pyobjc-framework-IOBluetooth==12.2.2

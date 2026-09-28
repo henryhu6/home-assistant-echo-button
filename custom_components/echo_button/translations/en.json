@@ -1,0 +1,26 @@
+{
+  "title": "Echo Button",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Find an Echo Button",
+        "description": "Hold the button until its light turns orange, then select Submit to scan for Classic Bluetooth buttons. Previously paired buttons can also be selected."
+      },
+      "select": {
+        "title": "Select an Echo Button",
+        "description": "Select the button you want to add to Home Assistant.",
+        "data": {
+          "address": "Button"
+        }
+      }
+    },
+    "error": {
+      "cannot_scan": "Could not scan the host Bluetooth adapter. Check the logs and try again.",
+      "no_buttons": "No Echo Buttons were found. Hold a button until its light turns orange and try again.",
+      "cannot_pair": "Could not pair this button. Put it in orange pairing mode and try again."
+    },
+    "abort": {
+      "already_configured": "This Echo Button is already configured."
+    }
+  }
+}

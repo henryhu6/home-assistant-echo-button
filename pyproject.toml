@@ -1,0 +1,7 @@
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]
+
+[tool.ruff.lint.per-file-ignores]
+# dbus-fast uses D-Bus signature strings as method annotations.
+"custom_components/echo_button/bluez.py" = ["F722", "F821"]
+"custom_components/echo_button/pairing.py" = ["F722", "F821"]
