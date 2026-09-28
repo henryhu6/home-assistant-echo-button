@@ -35,3 +35,7 @@ Install the test dependencies with `python3 -m pip install -r requirements-test.
 To remove the integration, delete each Echo Button entry in **Settings → Devices & services → Echo Button**, remove `/config/custom_components/echo_button/`, and restart Home Assistant. This does not remove the Bluetooth bond from BlueZ; remove the paired device separately if you want to pair it with another host.
 
 Planned work is tracked in [TODO.md](TODO.md).
+
+## License
+
+This project is available under the [MIT License](LICENSE).
