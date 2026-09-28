@@ -75,7 +75,8 @@ Light control is outside the current project scope. The direct Bluetooth payload
 - [x] Add local HACS metadata and a release readiness checklist without placeholder repository URLs.
 - [x] Prepare a GitHub Actions workflow for parser, transport, and Ruff checks once the repository exists.
 - [x] Turn host D-Bus connection and call failures into setup-flow errors; cover the previously observed late-bond pairing path with a unit test.
-- [ ] Prepare a public HACS repository with a real documentation URL, issue tracker, code owner, and release tag; validate a clean install on another Home Assistant OS host.
+- [x] Add the public repository's real documentation URL, issue tracker, and code owner to the integration manifest.
+- [ ] Tag a release after the remaining hardware blockers are resolved; validate a clean install on another Home Assistant OS host.
 
 ## Known issue
 

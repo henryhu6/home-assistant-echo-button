@@ -5,7 +5,9 @@
   "config_flow": true,
   "integration_type": "device",
   "iot_class": "local_push",
-  "codeowners": [],
+  "codeowners": ["@henryhu6"],
   "dependencies": [],
+  "documentation": "https://github.com/henryhu6/home-assistant-echo-button#readme",
+  "issue_tracker": "https://github.com/henryhu6/home-assistant-echo-button/issues",
   "requirements": ["dbus-fast==5.0.22"]
 }
